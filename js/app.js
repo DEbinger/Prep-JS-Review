@@ -63,7 +63,7 @@ Console log the variable
 Console log "Earth" using the index position
 Console log "Uranus" using the index position*/
 
-var planets = ["Mercury","Venus","Earth","Mars","Jupiter","Uranus","Neptune"];
+var planets = [ "Mercury", "Venus", "Earth", "Mars", "Jupiter", "Uranus", "Neptune" ];
 console.log(planets);
 console.log(planets[2]);
 console.log(planets[5]);
@@ -71,6 +71,9 @@ console.log(planets[5]);
 /*7. Variables with Array for its value.
 Declare a variable named india and assign the value of 3 popular tourist attractions.  
 Console log the variable.*/
+
+var india = ["Taj Mahal", "Ganges", "Jaisalmer" ];
+console.log(india);
 
 /*8. Adding new elements to an array.
 Add another popular tourist attraction to the india variable from position 1 of the index.
