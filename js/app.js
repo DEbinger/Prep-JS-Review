@@ -210,7 +210,7 @@ function addUp(num){
   return result;
 }
 
-console.log(addUp(30));
+console.log(addUp(25));
 
 /*19. Declare a variable named oddNumbers and assign it to an empty array
 Use a for loop to add only odd numbers to an Array.  Add 30 odd numbers to the oddNumbers variable starting with the value of 1.*/
