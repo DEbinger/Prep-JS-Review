@@ -202,6 +202,16 @@ for(var i = 0; i<japanPrefectures.length; i++){
 This function will take a number parameter and add up all the numbers from 1 to that number.
 The parameter will be any number from 1 to 88.*/
 
+function addUp(num){
+  var result = 0;
+  for(var i = 1; i<num; i++){
+    result +=i;
+  }
+  return result;
+}
+
+console.log(addUp(30));
+
 /*19. Declare a variable named oddNumbers and assign it to an empty array
 Use a for loop to add only odd numbers to an Array.  Add 30 odd numbers to the oddNumbers variable starting with the value of 1.*/
 
