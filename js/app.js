@@ -93,6 +93,9 @@ Console log the new variable. */
 
 var snacks = ["carrot sticks dipped in bitter chocolate", "panko-crusted broccoli", "peanut butter and brussel sprouts", "gin tonic shave ice", "deep fried spam", "cap n crunch french toast finger sandwiches"];
 
+var gross = snacks.slice(2);
+console.log(gross);
+
 /*11. Declare two variables with names of your choosing and use the triple comparison operator (===) to compare:
 a) two strings "Racecar" and "racecar"
 b) a string and a number "three" and 3
