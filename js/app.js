@@ -239,9 +239,26 @@ console.log("Can they drink there?: ", drinkinAlready);
 
 /*21. Declare a function named contentFiller which takes in a single parameter which will be an object.  Write a for loop that will put 5 random numbers between the values of 0 to 20 in the contents array in the bigBox object you created in exercise 14.  Console log the result.*/
 
+/*function contentFiller(obj) {
+  for (var i = 0; i < Things.length; i++) {
+    Things[i]
+  }
+}
+
+console.log();
+*/
 /*22.  Declare a function named firstReverse which takes a single parameter str.  This function will take a string parameter being passed in and return the string in reverse order.*/
+
+var zyx = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+function firstReverse(frev){
+      return zyx.split("").reverse().join("");
+}
+console.log(firstReverse(zyx));
 
 /*23. Declare a function named letterCap which takes a single parameter str. This function will capitalize the first letter of the string you pass in to invoke the function. 
 */
+
+
 
 /*24. Declare a function named longestWord which takes a single parameter str. This function will return the longest word in the string when you invoke this function.*/ 
